@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img class="img_icon" src="images/20293-2-cute-snake-image.png" alt="snake image" onclick="disableimg(this)">
+        <img class="img_icon2" src="images/20293-2-cute-snake-image.png" alt="snake image" onclick="disableimg(this)">
+    </div>
+    <div id="score" class="score">Score: 0</div>
+
+    <div class="body">
+        <div id="speedButtonContainer">
+            <button id="increaseSpeedButton">Increase Speed</button>
+            <button id="decreaseSpeedButton">Decrease Speed</button>
+        </div>
+        <div class="icon"></div>
+        <div id="board"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
